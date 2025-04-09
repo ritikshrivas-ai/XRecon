@@ -1,0 +1,11 @@
+requests
+aiohttp
+beautifulsoup4
+lxml
+colorama
+rich
+termcolor
+pyfiglet
+tqdm
+fake_useragent
+fzf
