@@ -66,3 +66,28 @@ sudo apt update && sudo apt install python3 python3-pip -y
 git clone https://github.com/ritikshrivas-ai/XRecon.git
 cd XRecon
 pip install -r requirements.txt
+```
+---
+## 🚀 Usage
+```bash
+python3 xrecon.py
+```
+- Interactive prompt for targets and scan mode (High-Tech or Stealth)
+- Multi-target support
+- Automated final report generation on Desktop
+
+---
+## 🧠 Contribution Guidelines
+
+- Fork the repository.
+- Create a new feature or fix branch.
+- Submit a pull request with detailed description of changes.
+
+---
+## 📧 Contact
+- GitHub: [Ritik Shrivas](https://github.com/ritikshrivas-ai)
+- Email: ritikshrivas.ai@gmail.com
+
+---
+## ⚖️ License
+This project is licensed under the MIT License.
