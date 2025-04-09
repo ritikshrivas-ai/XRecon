@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.db
+.env
+venv/
+.idea/
+.vscode/
+*.swp
+.DS_Store
+*.zip
+*.tar.gz
+*.egg-info/
+XRecon_Report.html
