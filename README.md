@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/ritikshrivas-ai/XRecon/blob/main/logo?raw=true" width="300" alt="XRecon Logo"/>
+</p>
+
 <h1 align="center">🚀 XRecon</h1>
 <p align="center">
   <strong>Advanced Cyber Reconnaissance & Vulnerability Detection Tool</strong><br>
