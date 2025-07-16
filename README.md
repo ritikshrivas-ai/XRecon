@@ -1,97 +1,114 @@
-<p align="center">
-  <img src="https://github.com/ritikshrivas-ai/XRecon/blob/main/logo?raw=true" width="300" alt="XRecon Logo"/>
-</p>
+# 🚀 XRecon: Quantum Reconnaissance Toolkit
 
-<h1 align="center">🚀 XRecon</h1>
-<p align="center">
-  <strong>Advanced Cyber Reconnaissance & Vulnerability Detection Tool</strong><br>
-  <em>Made with 💻 by <a href="https://github.com/ritikshrivas-ai">Ritik Shrivas</a></em>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/github/license/ritikshrivas-ai/XRecon?style=flat-square" alt="License">
-  <img src="https://img.shields.io/github/stars/ritikshrivas-ai/XRecon?style=flat-square" alt="Stars">
-  <img src="https://img.shields.io/github/forks/ritikshrivas-ai/XRecon?style=flat-square" alt="Forks">
-  <img src="https://img.shields.io/github/issues/ritikshrivas-ai/XRecon?style=flat-square" alt="Issues">
-  <img src="https://img.shields.io/github/languages/top/ritikshrivas-ai/XRecon?style=flat-square" alt="Language">
-</p>
+> **XRecon v2.0 (Quantum Edition) — Offensive Automation for Elite Recon**
 
 ---
 
-## 📌 Overview
+## 🧬 Overview
 
-**XRecon** is an all-in-one automated reconnaissance tool built for **bug bounty hunters**, **penetration testers**, and **cybersecurity researchers**. It combines **JavaScript analysis**, **API enumeration**, **vulnerability tagging**, and high-tech terminal visuals into one slick Python-powered package.
+**XRecon** is a high-performance, cyberpunk-inspired reconnaissance engine built for bug bounty hunters, red teamers, and security researchers. Designed with quantum efficiency and maximum stealth in mind, XRecon automates deep web asset discovery, vulnerability mapping, and intelligence reporting — all in a single, stylish script.
 
-✨ Built for **Kali Linux**  
-⚔️ Designed for **real-world recon workflows**  
-🧠 Powered by **async execution and smart vulnerability detection**
-
----
-
-## 🧠 Features
-
-| Feature                        | Description |
-|-------------------------------|-------------|
-| 🎭 Dual Mode                  | High-Tech (glitchy UI + animations) and Stealth (silent, no-banner recon) |
-| 🧬 JS Analyzer                | Extract secrets & endpoints using **LinkFinder** and **SecretFinder** |
-| 🛰️ API Enumeration            | Discover old API endpoints from **Wayback Machine** via `waymore` |
-| 📊 Smart HTML Report          | Categorized, color-coded, hacker-themed report |
-| ⚡ Async Recon Engine         | Lightning-fast scanning via async/multithreaded modules |
-| 🧠 Vulnerability Categorizer  | Auto tags URLs with likely vulns (XSS, SQLi, Open Redirect, etc.) |
-| 👁️‍🗨️ Terminal Visuals          | Matrix logs, glitch effects, cyberpunk transitions |
-| 💾 Auto Report Storage        | Saves output directly to `~/Desktop/XRecon_Report.html` |
-| 🎨 Custom Banners             | Sharp ASCII & neon glitch banners with developer credits |
+- **Matrix UI:** Glitch & High-Tech mode visuals
+- **Automated Wayback Historical Recon**
+- **Pattern-Based Vulnerability Discovery:** XSS, SQLi, LFI, SSRF, Open Redirect, IDOR, RCE
+- **Cyberpunk HTML Reporting:** Beautiful, actionable output — ready for ops or client handoff
+- **Fast, Async, Minimal Dependencies**
+- **Zero Bloat:** No hardcoded creds, no unsafe parsing, no weak crypto
 
 ---
 
-## 🧪 Supported Vulnerability Categories
+## 🦾 Features
 
-- 🧨 SQL Injection (sqli)
-- 🔥 XSS (Reflected & DOM)
-- 🎣 Open Redirect
-- 📤 SSRF / LFI / RFI
-- 🔐 Auth Bypass Indicators
-- 📎 Sensitive Data Exposure
-- 🎯 JS Secrets & Endpoints
-- 📡 Deprecated APIs (via Wayback)
-- 💣 Command Injection
-- 🧼 CRLF Injection
-- 🛑 Clickjacking
-- 🛡️ CSRF (Heuristic)
-- 📚 Directory Traversal
+| Mode         | Description                                             |
+| ------------ | ------------------------------------------------------ |
+| High-Tech    | Glitch effects, cyber visuals, verbose output          |
+| Stealth      | Silent mode, minimal logs, operational discretion      |
+| Vuln Scan    | Auto-categorizes URLs by exploit patterns              |
+| HTML Report  | Generates stylish, matrix-style report on desktop      |
 
 ---
 
-## ⚙️ Installation
+## ⚡ Quickstart
 
-### 🐍 Requirements
 ```bash
-sudo apt update && sudo apt install python3 python3-pip -y
 git clone https://github.com/ritikshrivas-ai/XRecon.git
 cd XRecon
-pip install -r requirements.txt
+pip3 install -r requirements.txt
+python3 xrecon.py -d target.com -t          # High-Tech Mode
+python3 xrecon.py -d target.com             # Stealth Mode
 ```
+
+- **Report Output:** `~/Desktop/xrecon_report.html`  
+- **Supported Python:** 3.8+
+
 ---
-## 🚀 Usage
+
+## 🔥 Usage
+
 ```bash
-python3 xrecon.py
+python3 xrecon.py -d example.com -t
 ```
-- Interactive prompt for targets and scan mode (High-Tech or Stealth)
-- Multi-target support
-- Automated final report generation on Desktop
+
+| Flag         | Usage                           |
+|--------------|---------------------------------|
+| `-d, --domain` | Target domain (required)        |
+| `-t, --tech`   | Enable high-tech mode (optional)|
 
 ---
-## 🧠 Contribution Guidelines
 
-- Fork the repository.
-- Create a new feature or fix branch.
-- Submit a pull request with detailed description of changes.
+## 🧩 Sample Output
 
----
-## 📧 Contact
-- GitHub: [Ritik Shrivas](https://github.com/ritikshrivas-ai)
-- Email: ritikshrivas.ai@gmail.com
+![report](https://raw.githubusercontent.com/ritikshrivas-ai/XRecon/main/assets/report-preview.png)
 
 ---
-## ⚖️ License
-This project is licensed under the MIT License.
+
+## 👁️‍🗨️ Recon Modules
+
+- **Wayback Machine Harvesting**
+- **Pattern-Based Vulnerability Detection**
+- **Cyberpunk Matrix/Glitch Effects**
+- **Auto-Generated HTML Reports**
+
+---
+
+## 🕸️ Vulnerability Patterns Detected
+
+- **XSS:** `<script>`, `alert()`, `onerror=`, `javascript:`
+- **SQLi:** `UNION SELECT`, `'--`, `SELECT ... FROM`, `OR 1=1`
+- **LFI:** `../`, `etc/passwd`, `boot.ini`
+- **Open Redirect:** `redirect=`, `url=`, `next=`, `dest=`
+- **SSRF:** `internal=`, `private=`, `admin=`, `127.0.0.1`
+- **IDOR:** `id=`, `user=`, `account=`, `number=`
+- **RCE:** `bash -i`, `nc -e`, `cmd.exe`
+
+---
+
+## 🛡️ OPSEC Notice
+
+- **No credentials stored**
+- **No unsafe input handling**
+- **No weak crypto**
+- Designed for **auditability** and **secure integration**
+
+---
+
+## 👤 Author
+
+- **Ritik Shrivas**
+- [GitHub](https://github.com/ritikshrivas-ai)
+- [Twitter](https://twitter.com/ritikshrivas_ai)
+
+---
+
+## 🧠 Advanced Usage
+
+For chaining, automation, or custom modules:  
+See `xrecon.py` — every function is minimal, auditable, and ready for rapid integration.
+
+---
+
+## 💀 Disclaimer
+
+> This tool is for educational and authorized security testing only. Do not use against systems without proper permission.
+
+---
