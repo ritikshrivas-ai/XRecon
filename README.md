@@ -56,12 +56,6 @@ python3 xrecon.py -d example.com -t
 
 ---
 
-## 🧩 Sample Output
-
-![report](https://raw.githubusercontent.com/ritikshrivas-ai/XRecon/main/assets/report-preview.png)
-
----
-
 ## 👁️‍🗨️ Recon Modules
 
 - **Wayback Machine Harvesting**
